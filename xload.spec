@@ -35,6 +35,6 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_bindir}/xload
 %{_datadir}/X11/app-defaults/XLoad
-%{_mandir}/man1/xload.1*.bz2
+%{_mandir}/man1/xload.1*
 
 
