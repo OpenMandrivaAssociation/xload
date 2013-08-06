@@ -8,7 +8,7 @@ License:	MIT
 
 BuildRequires:	pkgconfig(xt)
 BuildRequires:	pkgconfig(xaw7)
-BuildRequires:	pkgconfig(util-macros)
+BuildRequires:	pkgconfig(xorg-macros)
 
 %description
 The xload program displays a periodically updating histogram of the system
