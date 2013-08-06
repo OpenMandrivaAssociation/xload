@@ -1,21 +1,21 @@
-Name: xload
-Version: 1.1.1
-Release: 1
-Summary: System load average display for X
-Group: Development/X11
-Source0: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
-License: MIT
+Name:		xload
+Version:	1.1.2
+Release:	1
+Summary:	System load average display for X
+Group:		Development/X11
+Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
+License:	MIT
 
-BuildRequires: libxt-devel >= 1.0.0
-BuildRequires: libxaw-devel >= 1.0.1
-BuildRequires: x11-util-macros >= 1.0.1
+BuildRequires:	pkgconfig(xt)
+BuildRequires:	pkgconfig(xaw7)
+BuildRequires:	pkgconfig(util-macros)
 
 %description
 The xload program displays a periodically updating histogram of the system
 load average.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 
 %build
 %configure2_5x
