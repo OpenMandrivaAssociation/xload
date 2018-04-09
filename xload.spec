@@ -1,6 +1,6 @@
 Name:		xload
-Version:	1.1.2
-Release:	9
+Version:	1.1.3
+Release:	1
 Summary:	System load average display for X
 Group:		Development/X11
 Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
