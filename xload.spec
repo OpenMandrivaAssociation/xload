@@ -6,6 +6,7 @@ Group:		Development/X11
 Source0:	https://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
 License:	MIT
 
+BuildRequires:  gettext
 BuildRequires:	pkgconfig(xt)
 BuildRequires:	pkgconfig(xaw7)
 BuildRequires:	pkgconfig(xorg-macros)
